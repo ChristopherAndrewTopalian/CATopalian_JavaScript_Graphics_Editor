@@ -199,7 +199,7 @@ function makeToolbox()
 
     let githubLink = ce('a');
     githubLink.textContent = 'CODE';
-    githubLink.href = 'https://github.com/ChristopherTopalian/Topalian_JavaScript_Graphics_Editor';
+    githubLink.href = 'https://github.com/ChristopherAndrewTopalian/Topalian_JavaScript_Graphics_Editor';
     githubLink.target = '_blank';
     githubLink.style.fontSize = 13 + 'px';
     mainDivToolBox.append(githubLink);
