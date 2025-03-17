@@ -1,4 +1,4 @@
-# Topalian JavaScript Graphics Editor
+# CATopalian JavaScript Graphics Editor
 A JavaScript Graphics Editor that is easy to comprehend and well organized
 
 ![screenshot001](src/media/textures/screenshots/001.PNG)

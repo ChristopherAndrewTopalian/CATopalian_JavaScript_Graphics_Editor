@@ -199,7 +199,7 @@ function makeToolbox()
 
     let githubLink = ce('a');
     githubLink.textContent = 'CODE';
-    githubLink.href = 'https://github.com/ChristopherAndrewTopalian/Topalian_JavaScript_Graphics_Editor';
+    githubLink.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Graphics_Editor';
     githubLink.target = '_blank';
     githubLink.style.fontSize = 13 + 'px';
     mainDivToolBox.append(githubLink);
@@ -207,7 +207,7 @@ function makeToolbox()
     //-//
 
     let info = ce('div');
-    info.textContent = 'Topalian JavaScript Graphics Editor';
+    info.textContent = 'CATopalian JavaScript Graphics Editor';
     info.style.fontSize = 12 + 'px';
     mainDivToolBox.append(info);
 }
