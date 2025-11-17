@@ -34,9 +34,13 @@ function menuBrushOptions()
     //-//
 
     let lineWidthTextbox = ce('input');
-    lineWidthTextbox.type = 'text';
+    lineWidthTextbox.type = 'number';
     lineWidthTextbox.id = 'lineWidthTextbox';
     lineWidthTextbox.className = 'inputStyle001';
+    lineWidthTextbox.oninput = function()
+    {
+        lineWidth = lineWidthTextbox.value;
+    };
     lineWidthTextbox.onkeyup = function()
     {
         lineWidth = lineWidthTextbox.value;
