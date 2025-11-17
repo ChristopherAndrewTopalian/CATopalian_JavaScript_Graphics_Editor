@@ -21,11 +21,6 @@ function makeImageInputButton()
         theInput.click();
     };
     ba(inputBtn);
-
-    //-//
-
-    // <input type = 'file' id = 'imageInput' class = 'imageInput' accept = 'image/*'>
-
 }
 
 //----//
