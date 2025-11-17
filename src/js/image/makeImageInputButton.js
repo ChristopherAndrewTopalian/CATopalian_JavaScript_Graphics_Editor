@@ -2,12 +2,27 @@
 
 function makeImageInputButton()
 {
-    let theInputButton = ce('input');
-    theInputButton.type = 'file';
-    theInputButton.id = 'imageInput';
-    theInputButton.className = 'imageInput';
-    theInputButton.accept = 'image/*';
-    ba(theInputButton);
+    let theInput = ce('input');
+    theInput.type = 'file';
+    theInput.id = 'imageInput';
+    theInput.accept = 'image/*';
+    theInput.style.display = 'none';
+    ba(theInput);
+
+    //-//
+
+    let inputBtn = ce('button');
+    inputBtn.style.position = 'fixed';
+    inputBtn.style.right = '0px';
+    inputBtn.style.top = '0px';
+    inputBtn.textContent = 'Load';
+    inputBtn.onclick = function()
+    {
+        theInput.click();
+    };
+    ba(inputBtn);
+
+    //-//
 
     // <input type = 'file' id = 'imageInput' class = 'imageInput' accept = 'image/*'>
 
