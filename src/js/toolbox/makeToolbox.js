@@ -5,6 +5,10 @@ function makeToolbox()
     let mainDivToolBox = ce('div');
     mainDivToolBox.id = 'toolbox';
     mainDivToolBox.className = 'mainDivToolBox';
+    mainDivToolBox.style.display = 'flex';
+    mainDivToolBox.style.flexDirection = 'column';
+    mainDivToolBox.style.overflow = 'scroll';
+    mainDivToolBox.style.height = '100vh';
     ba(mainDivToolBox);
 
     //-//
@@ -215,7 +219,7 @@ function makeToolbox()
 //----//
 
 // Dedicated to God the Father
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
 // https://sites.google.com/view/CollegeOfScripting
